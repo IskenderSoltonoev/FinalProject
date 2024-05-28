@@ -8,8 +8,6 @@ namespace ConsoleApp1
         static void Main()
         {
             MyHashTable hs = new MyHashTable(3);
-            hs.Add("sest3", "3");
-            hs["sest3"] = "5";
         }
     }
 
