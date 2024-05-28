@@ -20,9 +20,6 @@ namespace ConsoleApp1
 
         public MyHashTable(int size)
         {
-            _capacity = size;
-            _count = 0;
-            _buckets = new LinkedList<Item>[_capacity];
 
             for (int i = 0; i < _capacity; i++)
             {
